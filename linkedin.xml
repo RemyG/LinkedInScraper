@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+	<parameter name="fullname" value="//span[@id='name']/span[@class='full-name']" />
+	<parameter name="firstname" value="$fullname/span[@class='given-name']" />
+	<parameter name="lastname" value="$fullname/span[@class='family-name']" />
+
+	<parameter name="positions" value="//div[@id='profile-experience']//div[contains(@class, 'position')]" />
+	<parameter name="position_title" value="$position/div/h3/span[@class='title']" />
+	<parameter name="position_company" value="$position/div/h4//span" />
+	<parameter name="position_location" value="$position/p[@class='period']/span[@class='location']" />
+	<parameter name="position_period" value="$position/p[@class='period']" />
+	<parameter name="position_period_from" value="$period/abbr[@class='dtstart']" />
+	<parameter name="position_period_to" value="$period/abbr[@class='dtend' or @class='dtstamp']" />
+	<parameter name="position_period_duration" value="$period/span[@class='duration']" />
+	<parameter name="position_description" value="$position/p[contains(@class, 'description')]" />
+
+	<parameter name="languages" value="//li[@class='competency language']" />
+	<parameter name="language_name" value="$language/h3" />
+	<parameter name="language_proficiency" value="$language/span[@class='proficiency']" />
+
+	<parameter name="educations" value="//div[@id='profile-education']//div[contains(@class, 'position')]" />
+	<parameter name="education_summary" value="$education/h3" />
+	<parameter name="education_degree" value="$education/h4/span[@class='degree']" />
+	<parameter name="education_major" value="$education/h4/span[@class='major']" />
+	<parameter name="education_period" value="$education/p[@class='period']" />
+	<parameter name="education_period_from" value="$period/abbr[@class='dtstart']" />
+	<parameter name="education_period_to" value="$period/abbr[@class='dtend']" />
+	<parameter name="education_details" value="$education/p[contains(@class, 'details-education')]" />
+
+	<parameter name="skills" value="//ol[@id='skills-list']/li" />
+
+</mapping>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+<profile_url>http://uk.linkedin.com/in/remygardette/</profile_url>
+<name>
+<firstname>Rémy</firstname>
+<lastname>Gardette</lastname>
+</name>
+<positions>
+<position>
+<title>Java Developer</title>
+<company>Multicom Products Ltd</company>
+<location>Bristol, United Kingdom</location>
+<period>
+<from>Feb. 2012</from>
+<to>Now</to>
+<duration>(1 year 8 months)</duration>
+</period>
+<description>Development and maintenance of the company's core product, FindAndBook, in its relation to the suppliers websites.
+Online datamining (web-scraping of the websites to retrieve all required information)
+Maintenance of the Viewdata application.
+Writing of functional specifications for the integration of new modules.</description>
+</position>
+<position>
+<title>Software Engineer - Java EE, PHP</title>
+<company>ALTEN</company>
+<location>Lyon Area, France</location>
+<period>
+<from>Sept. 2009</from>
+<to>Feb. 2012</to>
+<duration>(2 years 6 months)</duration>
+</period>
+<description>Management and realization of different internal projects :
+SMS, email and mail information campaigns sending platform:
+- Conception of the evolutions, realization, tests, deployment, support
+- Java, Oracle, GWT, Hibernate, JasperReports, Tomcat
+Company's website recruiting portal:
+- Realization of some evolutions, tests, deployment, support
+- PHP, MySQL, PHP-MVC, Apache HTTPD
+Several webservices, called by different internal applications :
+- Conception, realization, tests, deployment, support
+- Java, Axis2, Oracle, Tomcat
+Missions for clients :
+Web porting of a VB application:
+- Conception, realization, tests, deployment, support
+- PHP, PostGreSql, JavaScript, jQuery, jQGrid, Apache HTTPD
+Realization of an audit application :
+- Conception, realization, tests, deployment, support
+- PHP, PostGreSql, JavaScript, Apache HTTPD</description>
+</position>
+<position>
+<title>Intern - Software engineer</title>
+<company>ALTEN</company>
+<location>Lyon Area, France</location>
+<period>
+<from>Dec. 2008</from>
+<to>June 2009</to>
+<duration>(7 months)</duration>
+</period>
+<description>Internal SMS sending platform
+- Specifications, conception, implementation, testing
+- J2EE, GWT, Hibernate, Oracle, Tomcat
+Computer equipment lending application
+- Participation to the conception, implementation and testing
+- J2EE, GWT, Hibernate, Oracle, Tomcat</description>
+</position>
+<position>
+<title>Intern - Software developer</title>
+<company>Ineo Tinea</company>
+<location>Lyon Area, France</location>
+<period>
+<from>May 2008</from>
+<to>Aug. 2008</to>
+<duration>(4 months)</duration>
+</period>
+<description>Development of a project for the French national space center (CNES)
+Electrostatic fields monitoring application, with a system of alarms
+- Participation to the conception and implementation
+- Java, Oracle, Eclipse RCP, SVN</description>
+</position>
+</positions>
+<languages>
+<competency>
+<language>French</language>
+<proficiency>Native or bilingual proficiency</proficiency>
+</competency>
+<competency>
+<language>English</language>
+<proficiency>Full professional proficiency</proficiency>
+</competency>
+</languages>
+<education>
+<position>
+<summary>Institut national des Sciences appliquées de Lyon</summary>
+<degree>Master’s Degree in Engineering</degree>
+<major>Software engineering</major>
+<period>
+<from>2004</from>
+<to>2009</to>
+</period>
+<details></details>
+</position>
+<position>
+<summary>Lycée Jeanne d'Arc - Clermont-Ferrand</summary>
+<degree>Baccalauréat</degree>
+<major>Maths</major>
+<period>
+<from>2001</from>
+<to>2004</to>
+</period>
+<details>Grade:  Bien (Good)</details>
+</position>
+</education>
+<skills>
+<skill>Java</skill>
+<skill>PHP</skill>
+<skill>Hibernate</skill>
+<skill>J2EE</skill>
+<skill>JavaScript</skill>
+<skill>HTML</skill>
+<skill>GWT</skill>
+<skill>Eclipse</skill>
+<skill>Apache</skill>
+<skill>Tomcat</skill>
+<skill>UML</skill>
+<skill>MySQL</skill>
+<skill>SQL</skill>
+<skill>CSS</skill>
+<skill>AJAX</skill>
+<skill>OOP</skill>
+<skill>Web Services</skill>
+<skill>jQuery</skill>
+<skill>PL/SQL</skill>
+<skill>Software Development</skill>
+<skill>Computer Science</skill>
+<skill>Web Applications</skill>
+<skill>Databases</skill>
+<skill>PostgreSQL</skill>
+<skill>Java Enterprise Edition</skill>
+<skill>Web Development</skill>
+</skills>
+</resume>
