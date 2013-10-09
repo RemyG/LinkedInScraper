@@ -1,5 +1,4 @@
 #! /usr/bin/env python
-# -*- coding: UTF-8 -*-
 
 """
 The MIT License (MIT)
@@ -33,18 +32,22 @@ import requests
 import StringIO
 import sys
 
-from dateconverter import DateConverter
-from xpathmanipulator import XpathManipulator
+from scraper.dateconverter import DateConverter
+from scraper.xpathmanipulator import XpathManipulator
 
 def create_tag(tagName, tagContent):
 	return "<" + tagName + ">" + tagContent + "</" + tagName + ">\n"
 
-if len(sys.argv) != 3:
-	print 'Usage: linkedin.py <profile_address> <output_file>'
+if len(sys.argv) < 2:
+	print 'Usage: linkedin.py <profile_address> [<output_file>]'
 	sys.exit(1)
 
 profile_url = sys.argv[1]
-output_file = sys.argv[2]
+
+if len(sys.argv) == 3:
+	output_file = sys.argv[2]
+else:
+	output_file = 'output/output.xml'
 
 pos_nb = 0
 lan_nb = 0
@@ -56,7 +59,7 @@ dc = DateConverter()
 
 res = requests.get(profile_url)
 
-xpm = XpathManipulator(StringIO.StringIO(res.content), "linkedin.xml")
+xpm = XpathManipulator(StringIO.StringIO(res.content), "scraper/linkedin.xml")
 
 xpm.set_silent_error(True)
 xpm.set_default_null(False)
